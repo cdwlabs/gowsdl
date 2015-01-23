@@ -10,11 +10,11 @@ import (
 	"os"
 	"runtime"
 
-	gen "github.com/hooklift/gowsdl/generator"
+	gen "github.com/cdwlabs/gowsdl/generator"
 	flags "github.com/jessevdk/go-flags"
 )
 
-const version = "v0.0.1"
+const version = "v0.0.1, with mods by CDW Labs"
 
 var opts struct {
 	Version    bool   `short:"v" long:"version" description:"Shows gowsdl version"`
